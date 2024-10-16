@@ -1,6 +1,6 @@
 import React from 'react'
 import CategoryBebidas from './CategoryBebidas';
-import drinkData from '../../public/dataDrink';
+import drinkData from '../data/dataDrink';
 import './CategoryBebidas.css'
 
 const Bebidas = () => {

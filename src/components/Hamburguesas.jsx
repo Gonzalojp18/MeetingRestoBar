@@ -1,6 +1,6 @@
 import React from 'react';
 import CategorySection from '../components/CategorySection';
-import menuData from '../../public/data';
+import menuData from '../data/data';
 
 const Hamburguesas = () => {
   const hamburguesas = {

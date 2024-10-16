@@ -1,6 +1,7 @@
 import React from 'react'
 import CategoryInfo from './CategoryInfo';
-import enterMenu from '../../public/dataSecondary';
+import enterMenu from '../data/dataSecondary';
+import brusqueta from '../source/bigtoast/brusqueta.webp'
 
 const Brusquetas = () => {
     const toastData = {
@@ -9,12 +10,12 @@ const Brusquetas = () => {
 
 return (
     <section id="brusquetas" className='pb-10'>
-            <section className='brusquetas-section'>
-            <img className='mx-6 my-4' src="/public/source/bigtoast/brusqueta.webp" alt="" />
+            <article className='brusquetas-section'>
+            <img className='mx-6 my-4' src={brusqueta} alt="" />
                 <article className='title-brusquetas'>
                     <h2 className='text-5xl'>Brusquetas</h2>
                 </article>
-            </section>
+            </article>
     {Object.entries(toastData).map(([category, items]) => (
         <CategoryInfo key={category} category={category} items={items} />
     ))}

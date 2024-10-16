@@ -1,6 +1,7 @@
 import React from 'react'
-import drinkData from '../../public/dataDrink';
+import drinkData from '../data/dataDrink';
 import CategoryCoffe from './CategoryCoffe';
+import medialunas from '../source/meriendas/medialunas.webp'
 import './CategoryCoffe.css'
 
 const Coffe = () => {
@@ -23,7 +24,7 @@ return (
         <h1>Disfruta de nuestras riquisimas Medialunas acompañadas con un buen cafe.</h1>
         <p>No te pierdas nuestras Promos en Cafeteria y MediaLunas</p>
         </div>
-        <img src="/public/source/meriendas/medialunas.webp" alt="medialunas" />
+        <img src={medialunas} alt="medialunas" />
     </article>
     </section>
 )

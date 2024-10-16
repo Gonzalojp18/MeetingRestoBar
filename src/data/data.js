@@ -1,4 +1,6 @@
-// import salaDeluxe from './assets/ensaladas/casa.webp';
+import deluxe from '../source/ensaladas/deluxe.webp';
+import casa from '../source/ensaladas/casa.webp';
+
 
 const menuData = {
     "Entradas y Picadas": [
@@ -172,7 +174,7 @@ const menuData = {
             id: 27,
             name: "Deluxe",
             description: "Lechuga, tomates cherrys confitados, palta, aceitunas negras, pollo rebozado con panko, mix de semillas.",
-            image: "/public/source/ensaladas/deluxe.webp",
+            image: {deluxe},
             price: 8.200
         },
         {
@@ -185,14 +187,13 @@ const menuData = {
             id: 29,
             name: "De la casa",
             description: "Lomo de atun, arroz, aceitunas negras, tomate cherry, huevo duro, zanahria y choclo.",
-            image: "/public/source/ensaladas/casa.webp",
+            image: {casa},
             price: 8.600
         },
         {
             id: 30,
             name: "Meeting",
             description: "Rucula, tomates cherry, tiras de jamon crudo, nueces, queso parmesano.",
-            // image: "/src/assets/ensaladas/meeting.webp",
             price: 8.300
         },
         {

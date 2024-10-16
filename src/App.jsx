@@ -14,6 +14,7 @@ import Coffe from './components/Coffe';
 import Licuados from './components/Licuados';
 import Detox from './components/Detox';
 import Bebidas from './components/Bebidas';
+import logo from '../src/source/miselaneous/logosinbg.webp'
 
 const App = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -22,7 +23,6 @@ const App = () => {
     <div id="main-container">
       <header className="text-white shadow-md section-nav">
         <div className="container px-4 py-4 flex justify-between items-center">
-          {/* <h1 className="text-2xl font-bold">Meeting Resto&Bar</h1> */}
           <p>MENU</p>
           <button
             className="md:hidden"
@@ -53,7 +53,7 @@ const App = () => {
       </nav>
       <main className="container px-8 py-4">
       <section className="box-main">
-        <img src="/public/source/logosinbg.webp" alt="" />
+        <img src={logo} alt="logo" />
         <p className="text-center text-gray-600 mb-8">
           Bienvenido a nuestro menú digital. Explore nuestras deliciosas opciones y disfrute de una experiencia.
           <p>Comes como en casa , pero sin lavar los platos !!</p>

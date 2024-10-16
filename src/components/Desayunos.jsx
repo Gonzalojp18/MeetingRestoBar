@@ -1,6 +1,6 @@
 import React from 'react';
 import CategorySection from '../components/CategorySection';
-import enterMenu from '../../public/dataSecondary';
+import enterMenu from '../data/dataSecondary';
 
 const Desayunos = () => {
   const desayunosData = {
