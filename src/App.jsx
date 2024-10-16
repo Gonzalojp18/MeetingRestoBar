@@ -56,7 +56,7 @@ const App = () => {
         <img src={logo} alt="logo" />
         <p className="text-center text-gray-600 mb-8">
           Bienvenido a nuestro menú digital. Explore nuestras deliciosas opciones y disfrute de una experiencia.
-          <p>Comes como en casa , pero sin lavar los platos !!</p>
+          <span> Comes como en casa, pero sin lavar los platos !!</span>
         </p>
         </section>
         <section className='box-main-plate'>

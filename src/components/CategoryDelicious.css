@@ -63,4 +63,11 @@
     width: 100%;
 }
 
+.box-description p:first-of-type{
+    background-color: rgba(217, 119, 6);
+    color: #f3f3f3;
+    border-radius: 30px;
+    margin: .5em 0;
+}
+
 }
