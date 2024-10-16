@@ -58,6 +58,13 @@ rgb(125, 146, 102) olive */
   will-change: filter;
   transition: filter 300ms;
 }
+
+span{
+  background-color: rgba(217, 119, 6);
+  color: #f3f3f3;
+  margin: .5em 0;
+}
+
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }

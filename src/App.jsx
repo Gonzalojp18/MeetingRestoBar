@@ -54,8 +54,8 @@ const App = () => {
       <main className="container px-10 py-4">
       <section className="box-main">
         <img src={logo} alt="logo" />
-        <p className="text-center text-gray-600 mb-8">
-          Bienvenido a nuestro menú digital. Explore nuestras deliciosas opciones y disfrute de una experiencia.
+        <p className="text-center text-xl text-gray-600 mb-8">
+          Bienvenido a nuestro menú digital. Explore nuestras deliciosas opciones y disfrute de una experiencia. <br />
           <span> Comes como en casa, pero sin lavar los platos !!</span>
         </p>
         </section>
