@@ -174,7 +174,7 @@ const menuData = {
             id: 27,
             name: "Deluxe",
             description: "Lechuga, tomates cherrys confitados, palta, aceitunas negras, pollo rebozado con panko, mix de semillas.",
-            image: {deluxe},
+            image: deluxe,
             price: 8.200
         },
         {
@@ -187,7 +187,7 @@ const menuData = {
             id: 29,
             name: "De la casa",
             description: "Lomo de atun, arroz, aceitunas negras, tomate cherry, huevo duro, zanahria y choclo.",
-            image: {casa},
+            image: casa,
             price: 8.600
         },
         {

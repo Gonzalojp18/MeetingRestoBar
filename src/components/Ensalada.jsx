@@ -1,6 +1,6 @@
 import React from 'react'
 import CategoryHealtly from './CategoryHealtly';
-import menuData from '../../public/data';
+import menuData from '../data/data';
 
 const Ensaladas = () => {
     const saladData = {
