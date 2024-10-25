@@ -21,7 +21,7 @@ return (
     ))}
     <article>
         <div className="py-5">
-        <h1>Disfruta de nuestras riquisimas Medialunas acompañadas con un buen cafe.</h1>
+        <p>Disfruta de nuestras riquisimas Medialunas acompañadas con un buen cafe.</p>
         <p>No te pierdas nuestras Promos en Cafeteria y MediaLunas</p>
         </div>
         <img src={medialunas} alt="medialunas" />
