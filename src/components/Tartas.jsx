@@ -1,6 +1,8 @@
 import React from 'react';
 import CategorySection from './CategorySection';
 import menuData from '../data/data';
+import './TartasWraps.css'
+import wrap  from '../source/burgerandwraps/wrap.webp'
 
 const Tartas = () => {
   const tartasData = {
@@ -10,10 +12,11 @@ const Tartas = () => {
 
   return (
     <section id="tartas">
-      <h1 className="text-2xl font-bold mb-4">Tartas y Wraps</h1>
+      <h1 className="mb-4">Tartas y Wraps</h1>
       {Object.entries(tartasData).map(([category, items]) => (
         <CategorySection key={category} category={category} items={items} />
       ))}
+      <img src={wrap} alt="" />
     </section>
   );
 };
