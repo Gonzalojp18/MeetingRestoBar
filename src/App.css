@@ -19,18 +19,12 @@ rgb(125, 146, 102) olive */
 #root {
   margin: 0;
   text-align: center;
+@media screen and (min-width: 767px){
+          img{
+              display: none;
+          }
+  }
 }
-
-/* HEADER */
-
-/* .nav-header{ */
-  /* background-color: rgb(125, 146, 102); */
-/* } */
-
-
-/* MAIN */
-
-@media screen and (min-width: 320px) and (max-width: 767px){
 
   .section-nav{
     background-color: rgb(125, 146, 102);
@@ -46,7 +40,6 @@ rgb(125, 146, 102) olive */
       width: 50%;
     }
   }
-}
 
 .logo {
   height: 6em;
