@@ -14,16 +14,17 @@ import Coffe from './components/Coffe';
 import Licuados from './components/Licuados';
 import Detox from './components/Detox';
 import Bebidas from './components/Bebidas';
-import logo from '../src/source/miselaneous/logosinbg.webp'
+import logo from '../src/source/miselaneous/logosinbg.webp';
+import {FiInstagram} from 'react-icons/fi'
 
 const App = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
     <div id="main-container">
-      <header className="text-white shadow-md section-nav">
-        <div className="container px-4 py-4 flex justify-between items-center">
-          <p>MENU</p>
+      <header className="text-white shadow-md">
+        <div className="container px-4 py-4 flex justify-between items-center section-nav">
+          <a href="#main-container"><p>MENU</p></a>
           <button
             className="md:hidden"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
@@ -53,8 +54,8 @@ const App = () => {
       </nav>
       <main className="container px-10 py-4">
       <section className="box-main">
-        <img src={logo} alt="logo" />
-        <p className="text-center text-xl text-gray-600 mb-8">
+        <img className="mt-10" src={logo} alt="logo" />
+        <p className="text-center text-l text-gray-600 mb-8 italic">
           Bienvenido a nuestro menú digital. Explore nuestras deliciosas opciones y disfrute de una experiencia. <br />
           <span> Comes como en casa, pero sin lavar los platos !!</span>
         </p>
@@ -63,54 +64,53 @@ const App = () => {
         <div id="cafeteria" className="mb-12">
           <Desayunos />
         </div>
-        <div id="desayunos" className="mb-12">
+        <div className="mb-12">
           <Entradas />
         </div>
-        <div id="almuerzos" className="mb-12">
+        <div className="mb-12">
           <Almuerzos />
         </div>
-        <div id="cafeteria" className="mb-12">
+        <div className="mb-12">
           <Hamburguesas />
         </div>
-        <div id="cafeteria" className="mb-12">
+        <div className="mb-12">
           <Tartas />
         </div>
         </section>
-        <div id="cafeteria" className="mb-12">
+        <div className="mb-12">
           <Ensaladas />
         </div>
-        <section className='box-big-Toast'>
+        <section>
             <BigToast />
           </section>
-        <section className='box-big-Toast'>
+        <section>
             <Brusquetas />
           </section>
-        <section className='box-big-Toast'>
+        <section>
             <Postres />
           </section>
-        <section className='box-big-Toast'>
+        <section>
             <Coffe />
           </section>
-        <section className='box-big-Toast'>
+        <section>
             <Licuados />
           </section>
-        <section className='box-big-Toast'>
+        <section>
             <Detox />
           </section>
-        <section className='box-big-Toast'>
+        <section>
             <Bebidas />
           </section>
       </main>
 
-      <footer className="bg-amber-600 text-white py-4 mt-8">
-        <div className="container mx-auto px-4 text-center">
+      <footer className="bg-amber-600 text-white py-4 mt-8 flex flex-col items-center ">
+        <div className="container mb-5">
           <p>Av Libertador 7281</p>
           <p>Av Figueroa Alcorta 7250</p>
           <p>Virrey de Pino 1480</p>
         </div>
-        <div>
-          <p>Seguinos en Nuestras RRSS</p>
-          <p>Instagram</p>
+        <div className='text-center'>
+          <a target='blank'  href="https://www.instagram.com/meetingrestobar/"><FiInstagram /></a>
         </div>
       </footer>
     </div>

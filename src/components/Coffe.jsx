@@ -20,9 +20,9 @@ return (
         <CategoryCoffe key={category} category={category} items={items} />
     ))}
     <article>
-        <div className="py-5">
-        <p>Disfruta de nuestras riquisimas Medialunas acompañadas con un buen cafe.</p>
-        <p>No te pierdas nuestras Promos en Cafeteria y MediaLunas</p>
+        <div className="py-5 px-5">
+        <p className='text-2xl italic'>Disfruta de nuestras riquisimas Medialunas acompañadas con un buen cafe.</p>
+        <p className='text-2xl italic pt-5'>No te pierdas nuestras Promos en Cafeteria y MediaLunas</p>
         </div>
         <img src={medialunas} alt="medialunas" />
     </article>

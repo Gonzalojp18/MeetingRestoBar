@@ -25,7 +25,7 @@ const menuData = {
             id: 4,
             name: "Papas Fritas",
             description: "Opcion: Sola o A caballo",
-            price: 5.500,
+            price: 5.500
         }
     ],
     "Nuestros Platos": [
@@ -37,12 +37,12 @@ const menuData = {
         {
             id: 6,
             name: "Milanesa o Suprema napolitana con papas españolas",
-            price: 8500
+            price: 8.500
         },
         {
             id: 7,
             name: "Pasta en cinta al huevo con salsa bolognesa",
-            price: 7780
+            price: 7.780
         },
         {
             id: 8,
@@ -52,19 +52,19 @@ const menuData = {
         {
             id: 9,
             name: "Ravioles de Pollo y verdura a la manteca con finas hiervas",
-            price: 7550
+            price: 7.550
         },
         {
             id: 10,
             name: "Milanesa deluxe",
             description: "Milanesa de carne con colchon de guacamole y huevo frito acompañada con papas fritas",
-            price: 8700
+            price: 8.700
         },
         {
             id: 10,
             name: "Pizzeta de muzarella de masa madre",
             description: "opcional queso veggie",
-            price: 5600
+            price: 5.600
         }
     ],
     "Hamburguesas": [

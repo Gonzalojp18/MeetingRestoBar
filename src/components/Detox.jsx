@@ -1,7 +1,7 @@
 import React from 'react'
 import CategoryDetox from './CategoryDetox';
 import green from '../source/meriendas/green.webp'
-import orange from '../source/meriendas/orange.webp'
+import detox from '../source/detox/detox.jpeg'
 import drinkData from '../data/dataDrink'
 
 const Detox = () => {
@@ -20,7 +20,7 @@ return (
     {Object.entries(detoxData).map(([category, items]) => (
         <CategoryDetox key={category} category={category} items={items} />
     ))}
-                <img className='my-10' src={orange} alt="orange" />
+                <img className='my-10' src={detox} alt="orange" />
     </section>
 )
 }

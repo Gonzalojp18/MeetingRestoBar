@@ -4,7 +4,7 @@ const enterMenu = {
             id: 1,
             name: "Cafe mas Tostada",
             description: "Cafe a eleccion mas tostadas con queso untable y mermelada",
-            price:5.600
+            price: 5.600
         },
         {
             id: 2,
