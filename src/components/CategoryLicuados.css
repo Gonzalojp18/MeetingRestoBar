@@ -1,4 +1,4 @@
-@media screen and (min-width: 320px) and (max-width: 767px){
+
 .section-licuados{
     background-color: rgb(125, 146, 102);
     color: #3b3f56;
@@ -25,6 +25,4 @@
 }
 .box-licuados:last-child {
     border-radius: 0 0 10px 0;
-}
-
 }

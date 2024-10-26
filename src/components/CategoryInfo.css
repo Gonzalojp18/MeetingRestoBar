@@ -1,6 +1,5 @@
 /* STYLE OF BIGTOAST */
 
-@media screen and (min-width: 320px) and (max-width: 767px){
     .img-toast{
     width: 50%;
     margin: 0 0 0 5%;
@@ -49,7 +48,4 @@
 
 #card-brusquetas{
     border-bottom: 2px solid #5c862e;
-}
-
-
 }
