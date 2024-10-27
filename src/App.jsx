@@ -34,7 +34,7 @@ const App = () => {
         </div>
       </header>
 
-      <nav className={`md:hidden ${isMenuOpen ? 'block' : 'hidden'} bg-amber-600 text-white`}>
+      <nav className={`md:hidden ${isMenuOpen ? 'block' : 'hidden'} py-5 text-white bg-amber-600 nav`}>
         <ul className="container mx-auto px-4 py-2">
           <li className="py-2"><a href="#desayunos" onClick={() => setIsMenuOpen(false)}>Desayunos</a></li>
           <li className="py-2"><a href="#entradas" onClick={() => setIsMenuOpen(false)}>Entradas & Picadas</a></li>

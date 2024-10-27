@@ -26,11 +26,15 @@ rgb(125, 146, 102) olive */
   }
 }
 
+.nav{
+  font-variant: small-caps;
+}
+
 
   .section-nav{
     background-color: rgb(125, 146, 102);
     position: fixed;
-    z-index: 999;
+    z-index:1;
   }
 
 
