@@ -3,7 +3,7 @@
 const CategorySection = ({ category, items }) => {
 
     return (
-        <div className="mb-8">
+        <div className="mb-8 text-center">
                 <h2 className="text-xl font-semibold">{category}</h2>
                 <div className="mt-4 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
                     {items.map((item) => (

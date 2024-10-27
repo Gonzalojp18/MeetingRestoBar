@@ -22,11 +22,10 @@ const App = () => {
 
   return (
     <div id="main-container">
-      <header className="text-white shadow-md">
+      <header className="text-white shadow">
         <div className="container px-4 py-4 flex justify-between items-center section-nav">
           <a href="#main-container"><p>MENU</p></a>
           <button
-            className="md:hidden"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
           >
             {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
@@ -102,7 +101,6 @@ const App = () => {
             <Bebidas />
           </section>
       </main>
-
       <footer className="bg-amber-600 text-white py-4 mt-8 flex flex-col items-center ">
         <div className="container mb-5">
           <p>Av Libertador 7281</p>

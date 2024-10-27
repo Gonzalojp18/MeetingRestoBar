@@ -17,8 +17,8 @@ rgb(125, 146, 102) olive */
 
 
 #root {
-  margin: 0;
   text-align: center;
+  width: 100%;
 @media screen and (min-width: 767px){
           img{
               display: none;
@@ -39,7 +39,7 @@ rgb(125, 146, 102) olive */
 
 
   .box-main{
-    margin: auto;
+    margin: 10% auto 0 auto;
     display: flex;
     flex-direction: column;
     align-items: center;

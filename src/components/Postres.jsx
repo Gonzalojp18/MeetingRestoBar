@@ -21,9 +21,9 @@ return (
     ))}
     <section className='budin my-6'>
         <div className='box-description'>
-            <p className='text-2xl font-extrabold py-2'>NUEVO</p>
-            <p className='text-3xl title font-extrabold'>Budin De Pan</p>
-            <p className='text-description font-semibold'>Cremoso y exquisito, acompañado con crema blanca y tentador dulce de leche</p>
+            <p className='text-2xl font-extrabold py-2 text-center'>NUEVO</p>
+            <p className='text-3xl title font-extrabold text-center'>Budin De Pan</p>
+            <p className='text-description font-semibold text-center'>Cremoso y exquisito, acompañado con crema blanca y tentador dulce de leche</p>
     </div>
         <img src={budin} alt="budin" />
     </section>
