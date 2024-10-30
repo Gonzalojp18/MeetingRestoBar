@@ -6,16 +6,10 @@
 
 
 .box-burger{
-    display: flex;
-    flex-direction: row-reverse;
     h1{
         width:80%;
         font-weight: 800;
-        font-size: 1.8rem;
+        font-size: 2rem;
         color:#a57d10;
-    }
-    img{
-        width: 26%;
-        margin: 0 5% 0 0;
     }
 }
