@@ -5,7 +5,7 @@ import './CategoryBebidas.css'
 
 const Bebidas = () => {
     const bebidasData = {
-    "Aguas Saborizas y Gaseosas" : drinkData["Bebidas"],
+    "Bebida" : drinkData["Bebidas"],
     };
 
 return (

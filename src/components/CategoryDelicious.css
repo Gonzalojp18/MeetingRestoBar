@@ -11,9 +11,10 @@
 .title-postre{
     border-top: 4px solid #f3f3f3;
     margin: 1rem 0 0 15%;
-    width: 65%;
+    width: 100%;
+    text-align: center;
     h2{
-        font-weight: 800;
+        font-weight: 700;
         color: #a57d10;
     }
     p{

@@ -12,7 +12,7 @@ const Tartas = () => {
 
   return (
     <section id="tartas">
-      <h1 className="mb-4 text-center">Tartas y Wraps</h1>
+      <h1 className="mb-4 text-center">Tartas & Wraps</h1>
       {Object.entries(tartasData).map(([category, items]) => (
         <CategorySection key={category} category={category} items={items} />
       ))}
