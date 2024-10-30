@@ -10,7 +10,7 @@ const Coffe = () => {
     };
 
 return (
-    <section id="cafe" className="section-coffe mt-10 py-10 text-white">
+    <section id="cafe" className="section-coffe mt-10 py-10">
             <section className='flex'>
                 <article className='title-postre'>
                     <h2 className='text-5xl py-5'>Cafeteria</h2>

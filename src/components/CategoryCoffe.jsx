@@ -9,8 +9,8 @@ const CategoryCoffe = ({ category, items }) => {
                 {items.map((item) => (
                     <div key={item.id} className="p-4 flex box-coffe box-items">
                         <h3 className="text-1xl font-semibold mb-2 entrada">{item.name}</h3>
-                        <p className="text-pink-50 mb-2">{item.description}</p>
-                        <p className="text-pink-50 text-base font-extrabold">${item.price.toFixed(3)}</p>
+                        <p className="text-amber-600 mb-2">{item.description}</p>
+                        <p className="text-base font-extrabold">${item.price.toFixed(3)}</p>
                     </div>
                 ))}
             </div>

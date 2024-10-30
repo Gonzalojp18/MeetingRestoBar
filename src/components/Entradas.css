@@ -1,18 +1,18 @@
 #entradas{
     color: #5a1f0f;
-    background-color: #f69200;
+    background-color: #f3f3f3;
     border-radius: 15px;
 }
 
 .header-entradas{
     display: flex;
     flex-direction: row-reverse;
-    color: #5a1f0f;
+
     h1{
         font-weight: 800;
         font-size: 3rem;
     }
     img{
-        width: 60%;
+        width: 40%;
     }
 }
