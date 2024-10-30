@@ -1,5 +1,5 @@
 #hamburguesas{
-    background-color: rgb(209, 182, 108);
+    background-color: rgb(243, 230, 191);
     border-radius: 15px;
     font-weight: 600;
 }
@@ -15,6 +15,6 @@
         color:#a57d10;
     }
     img{
-        width: 50%;
+        width: 26%;
     }
 }
