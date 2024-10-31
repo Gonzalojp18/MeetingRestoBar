@@ -12,7 +12,7 @@ const Almuerzos = () => {
   return (
     <section id="almuerzos">
       <div className='box-almuerzos p-4'>
-      <h1 className="font-bold mb-4">Nuestros Platos</h1>
+      <h2 className="mb-2">Nuestros Platos</h2>
       {Object.entries(almuerzosData).map(([category, items]) => (
         <CategorySection key={category} category={category} items={items} />
       ))}

@@ -5,6 +5,9 @@
     font-weight: 700;
     font-size: 2rem;
     }
+    p{
+        font-size: .9em;
+    }
 
     img{
         width: 50%;

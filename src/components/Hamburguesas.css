@@ -1,19 +1,17 @@
 #hamburguesas{
-    color: #d43f12;
+    background-color: rgb(243, 230, 191);
     border-radius: 15px;
     font-weight: 600;
 }
 
 
 .box-burger{
-    display: flex;
-    flex-direction: row-reverse;
     h1{
-        width:80%;
         font-weight: 800;
-        font-size: 1.8rem;
+        font-size: 2rem;
+        color:#a57d10;
     }
     img{
-        width: 50%;
+        width: 30%;
     }
 }
