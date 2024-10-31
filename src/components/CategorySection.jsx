@@ -8,9 +8,9 @@ const CategorySection = ({ category, items }) => {
                 <div className="mt-4 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
                     {items.map((item) => (
                         <div key={item.id} className="p-4 rounded box-lunch">
-                            <h3 className="text-1xl font-semibold mb-2 entrada">{item.name}</h3>
-                            <p className="text-1xl font-bold mb-2">{item.description}</p>
-                            <p className="text-amber-600 text-base font-bold">${item.price.toFixed(3)}</p>
+                            <h3 className="text-l font-semibold mb-2 entrada">{item.name}</h3>
+                            <p className="mb-2">{item.description}</p>
+                            <p className="font-semibold text-l">${item.price.toFixed(3)}</p>
                         </div>
                     ))}
                 </div>
