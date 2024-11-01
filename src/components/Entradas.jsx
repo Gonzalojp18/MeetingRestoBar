@@ -12,7 +12,7 @@ const Entradas = () => {
   return (
     <section id="entradas">
       <div className='header-entradas p-4'>
-      <h1 className="text-2xl font-bold mb-4">Entradas & Picadas</h1>
+      <h1 className="text-4xl font-bold mb-4">Entradas & Picadas</h1>
       <img src={tortilla} alt="tortilla"/>
       </div>
       {Object.entries(entradaData).map(([category, items]) => (

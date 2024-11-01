@@ -10,10 +10,8 @@ const Bebidas = () => {
 
 return (
     <section id="bebidas"  className="section-bebidas">
-            <section className='flex'>
-                <article className='title-postre'>
+            <section className='flex box-bebidas'>
                     <h2 className='text-5xl py-4'>Bebidas</h2>
-                </article>
             </section>
     {Object.entries(bebidasData).map(([category, items]) => (
         <CategoryBebidas key={category} category={category} items={items} />
