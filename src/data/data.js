@@ -71,7 +71,7 @@ const menuData = {
         {
             id: 11,
             name: "Completa",
-            description: "Lechuga, tomate, jamon, queso y huevo a la plancha. Acompañadas con papas",
+            description: "Lechuga, tomate, jamon, queso y huevo a la plancha.",
             price: 7.900
         },
         {

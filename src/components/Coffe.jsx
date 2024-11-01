@@ -11,11 +11,17 @@ const Coffe = () => {
 
 return (
     <section id="cafe" className="section-coffe mt-10 py-10">
+<<<<<<< HEAD
             <section className='flex'>
                 <article className='title-coffe'>
                     <h2 className='text-5xl'>Cafeteria</h2>
                 </article>
             </section>
+=======
+                <div className='title-postre'>
+                    <h2 className='text-5xl py-5'>Cafeteria</h2>
+                </div>
+>>>>>>> 6d3630d76748cfd9716cebc9d384f80e8e1686d6
     {Object.entries(coffeData).map(([category, items]) => (
         <CategoryCoffe key={category} category={category} items={items} />
     ))}

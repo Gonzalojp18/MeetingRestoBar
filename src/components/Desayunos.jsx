@@ -10,8 +10,8 @@ const Desayunos = () => {
   };
 
   return (
-    <section id="desayunos" className="breakfast p-2">
-      <h1 className="mb-4 p-4">Desayunos & Meriendas</h1>
+    <section id="desayunos" className="breakfast p-1">
+      <h1 className="mb-2 p-4">Desayunos & Meriendas</h1>
       {Object.entries(desayunosData).map(([category, items]) => (
         <CategorySection key={category} category={category} items={items} />
       ))}
