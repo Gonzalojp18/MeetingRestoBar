@@ -1,12 +1,17 @@
+#desayunos{
+    h1{
+        color: #557237;
+        font-weight: 600;
+        font-weight: 700;
+        font-size: 2rem;
+    }
+}
+
 .breakfast{
     background-color: #f3f3f3;
-    color: #557237;
-    font-weight: 600;h1{
-    font-weight: 700;
-    font-size: 2rem;
-    }
     p{
-        font-size: .9em;
+        font-size: 1em;
+        color: #3b3f56;
     }
 
     img{

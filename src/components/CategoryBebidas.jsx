@@ -9,7 +9,7 @@ const CategoryBebidas = ({ category, items }) => {
                 {items.map((item) => (
                     <div key={item.id} className="p-4 flex box-bebidas box-items">
                         <h3 className="text-xl font-bold mb-2">{item.name}</h3>
-                        <p className="text-white mb-2">{item.description}</p>
+                        <p className="mb-2">{item.description}</p>
                         <p className="text-amber-600 text-base font-extrabold">${item.price.toFixed(3)}</p>
                     </div>
                 ))}

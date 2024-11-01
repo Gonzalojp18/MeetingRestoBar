@@ -12,15 +12,9 @@ const Hamburguesas = () => {
 
   return (
     <section id="hamburguesas">
-<<<<<<< HEAD
       <div className="box-burger p-4">
       <h1 className="font-bold">Hamburguesas & <br /> Sandwiches</h1>
       {/* <img src={burgerone} alt="de la casa" /> */}
-=======
-      <div className="box-burger p-2">
-      <h1 className="text-2xl">Hamburguesas & <br /> Sandwiches</h1>
-      <img src={burgerone} alt="de la casa" />
->>>>>>> test
       </div>
       {Object.entries(hamburguesas).map(([category, items]) => (
         <CategorySection key={category} category={category} items={items} />
