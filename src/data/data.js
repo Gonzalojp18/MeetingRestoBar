@@ -12,7 +12,7 @@ const menuData = {
         {
             id: 2,
             name: "Tortilla de Papa",
-            description: "Opcion: Cocina o Babe",
+            description: "Opcion: Cocida o Babe",
             price: 6.800
         },
         {
@@ -51,7 +51,7 @@ const menuData = {
         },
         {
             id: 9,
-            name: "Ravioles de Pollo y verdura a la manteca con finas hiervas",
+            name: "Ravioles de Pollo y verdura a la manteca con finas hierbas",
             price: 7.550
         },
         {

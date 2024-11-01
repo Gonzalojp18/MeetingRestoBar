@@ -33,7 +33,7 @@ const App = () => {
         </div>
       </header>
 
-      <nav className={`md:hidden ${isMenuOpen ? 'block' : 'hidden'} py-5 text-white bg-amber-600 nav`}>
+      <nav className={`md:hidden ${isMenuOpen ? 'block' : 'hidden'} text-white bg-amber-600 nav`}>
         <ul className="container mx-auto px-4 py-2">
           <li className="py-2"><a href="#desayunos" onClick={() => setIsMenuOpen(false)}>Desayunos</a></li>
           <li className="py-2"><a href="#entradas" onClick={() => setIsMenuOpen(false)}>Entradas & Picadas</a></li>
@@ -101,13 +101,13 @@ const App = () => {
             <Bebidas />
           </section>
       </main>
-      <footer className="bg-amber-600 text-white py-4 mt-8 flex flex-col items-center ">
-        <div className="container mb-5">
-          <p>Av Libertador 7281</p>
-          <p>Av Figueroa Alcorta 7250</p>
-          <p>Virrey de Pino 1480</p>
+      <footer className="bg-amber-600 text-xl text-white p-4 mt-8 flex flex-col items-center ">
+        <div className="container mb-5 text-left">
+          <p>Club Obra Sanitaria - (Av Libertador 7281)</p>
+          <p className="py-3">Club Obra Sanitaria Anexo - (Av Figueroa Alcorta 7250)</p>
+          <p>Club Harrods Gath&Chaves - (Virrey de Pino 1480)</p>
         </div>
-        <div className='text-center'>
+        <div className='text-center mb-5'>
           <a target='blank'  href="https://www.instagram.com/meetingrestobar/"><FiInstagram /></a>
         </div>
       </footer>
