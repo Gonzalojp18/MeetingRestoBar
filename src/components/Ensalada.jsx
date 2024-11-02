@@ -9,7 +9,7 @@ const Ensaladas = () => {
     };
 
 return (
-    <section>
+    <section id="ensaladas">
                 <div className='title-salad'>
                     <h2>Ensaladas de la Casa</h2>
                     <img className='px-2 px-5' src={deluxe} alt="" />

@@ -43,9 +43,8 @@ const App = () => {
           <li className="py-2"><a href="#ensaladas" onClick={() => setIsMenuOpen(false)}>Ensaladas</a></li>
           <li className="py-2"><a href="#toast" onClick={() => setIsMenuOpen(false)}>Big Toast</a></li>
           <li className="py-2"><a href="#brusquetas" onClick={() => setIsMenuOpen(false)}>Brusquetas</a></li>
-          <li className="py-2"><a href="#tortas" onClick={() => setIsMenuOpen(false)}>Tortas & Delicias</a></li>
+          <li className="py-2"><a href="#tortas" onClick={() => setIsMenuOpen(false)}>Cositas Ricas</a></li>
           <li className="py-2"><a href="#cafe" onClick={() => setIsMenuOpen(false)}>Cafeteria</a></li>
-          <li className="py-2"><a href="#ensaladas" onClick={() => setIsMenuOpen(false)}>Bebidas</a></li>
           <li className="py-2"><a href="#licuados" onClick={() => setIsMenuOpen(false)}>Licuados&Exprimidos</a></li>
           <li className="py-2"><a href="#detox" onClick={() => setIsMenuOpen(false)}>Detox</a></li>
           <li className="py-2"><a href="#bebidas" onClick={() => setIsMenuOpen(false)}>Bebidas</a></li>
