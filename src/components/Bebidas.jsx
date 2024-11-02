@@ -5,7 +5,7 @@ import './CategoryBebidas.css'
 
 const Bebidas = () => {
     const bebidasData = {
-    "Bebida" : drinkData["Bebidas"],
+    "" : drinkData["Bebidas"],
     };
 
 return (

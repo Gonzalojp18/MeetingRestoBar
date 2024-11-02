@@ -5,7 +5,7 @@ import './CategoryLicuados.css'
 
 const Licuados = () => {
     const licuadosData = {
-    "opciones" : drinkData["Licuados y Exprimidos"],
+    "" : drinkData["Licuados y Exprimidos"],
     };
 
 return (

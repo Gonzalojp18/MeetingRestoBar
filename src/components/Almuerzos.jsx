@@ -6,7 +6,7 @@ import './Almuerzos.css'
 
 const Almuerzos = () => {
   const almuerzosData = {
-    "Almuerzos": menuData["Nuestros Platos"]
+    "": menuData["Nuestros Platos"]
   };
 
   return (

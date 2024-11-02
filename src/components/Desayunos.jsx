@@ -6,7 +6,7 @@ import yogourt from '../source/breakfast/yogurt.webp'
 
 const Desayunos = () => {
   const desayunosData = {
-    "Para disfrutrar:": enterMenu["Desayunos y Meriendas"]
+    "": enterMenu["Desayunos y Meriendas"]
   };
 
   return (

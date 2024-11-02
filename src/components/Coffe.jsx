@@ -6,7 +6,7 @@ import './CategoryCoffe.css'
 
 const Coffe = () => {
     const coffeData = {
-    "Opciones:" : drinkData["Cafeteria"],
+    "" : drinkData["Cafeteria"],
     };
 
 return (

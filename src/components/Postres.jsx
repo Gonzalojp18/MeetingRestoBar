@@ -6,7 +6,7 @@ import budin from '../source/delicias/budin.webp'
 
 const Postres = () => {
     const postreData = {
-    "Postres" : sweetMenu["Cositas Ricas"],
+    "" : sweetMenu["Cositas Ricas"],
     };
 
 return (

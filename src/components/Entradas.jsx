@@ -6,7 +6,7 @@ import './Entradas.css'
 
 const Entradas = () => {
   const entradaData = {
-    "Entradas": menuData["Entradas y Picadas"]
+    "": menuData["Entradas y Picadas"]
   };
 
   return (

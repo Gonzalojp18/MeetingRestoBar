@@ -5,7 +5,7 @@ import deluxe from '../source/ensaladas/deluxe.webp';
 
 const Ensaladas = () => {
     const saladData = {
-    "Opciones" : menuData["Ensaladas"]
+    "opciones:" : menuData["Ensaladas"]
     };
 
 return (
