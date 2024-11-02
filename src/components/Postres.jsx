@@ -13,7 +13,7 @@ return (
     <section id="tortas"  className="section-delicious">
             <div className='flex'>
                 <article className='title-postre'>
-                    <h2 className='text-4xl py-4'>Cositas Ricas</h2>
+                    <h2 className='text-4xl'>Cositas Ricas</h2>
                 </article>
             </div>
     {Object.entries(postreData).map(([category, items]) => (

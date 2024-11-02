@@ -12,7 +12,7 @@ const Hamburguesas = () => {
 
   return (
     <section id="hamburguesas">
-      <div className="box-burger p-4">
+      <div className="box-burger p-2">
       <h1 className="font-bold">Hamburguesas & <br /> Sandwiches</h1>
       {/* <img src={burgerone} alt="de la casa" /> */}
       </div>

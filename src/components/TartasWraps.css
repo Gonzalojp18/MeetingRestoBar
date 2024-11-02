@@ -1,6 +1,8 @@
 
 #tartas{
     background-color: rgba(243, 244, 246);
+    border-radius: 15px;
+    padding: .3rem;
     color: #3B5323;
     h1{
         font-weight: 800;

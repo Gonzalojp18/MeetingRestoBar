@@ -1,14 +1,21 @@
 #almuerzos{
     background-color: #f3f3f3;
-    color: #557237;
     border-radius: 30px 5px 30px 5px;
 }
 
 
 .box-almuerzos{
+    color: #557237;
 h2{
     font-weight: 700;
+    font-size: 2.1rem;
+    border-top: 4px solid #557237;
+    padding: 1rem 0;
+    width: 90%;
+    margin: auto;
 }
+
 }
+
 
 
