@@ -29,8 +29,8 @@ const menuData = {
         },
         {
             id: 5,
-            name: "Papas Fritas",
-            description: "Opcion: Sola o A caballo",
+            name: "Tabla de picada",
+            description: "Jamon cocido, jamon crudo, queso tybo, queso azul, aceitunas y tostadas de pan de campo",
             price: 6.300
         }
     ],

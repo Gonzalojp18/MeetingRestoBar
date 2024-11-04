@@ -68,6 +68,12 @@ const sweetMenu = {
             name: "Lemon Pie",
             price: 2.500
         },
+        {
+            id: 14,
+            name: "Helado",
+            description: "cosultar",
+            price: 2.500
+        },
     ]
 }
 
