@@ -72,7 +72,7 @@ const sweetMenu = {
             id: 14,
             name: "Helado",
             description: "cosultar",
-            price: 2.500
+            price: 2.800
         },
     ]
 }
