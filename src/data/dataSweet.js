@@ -23,7 +23,7 @@ const sweetMenu = {
         {
             id: 5,
             name: "Ensalada de Fruta",
-            price: 2.800
+            price: 2.200
         },
         {
             id: 6,
@@ -33,17 +33,17 @@ const sweetMenu = {
         {
             id: 7,
             name: "Medialuna rellena con dulce de leche",
-            price: 1.700
+            price: 1.500
         },
         {
             id: 8,
-            name: "Alfajor de Maince",
-            price: 2.100
+            name: "Alfajor de Maicena",
+            price: 2.200
         },
         {
             id: 9,
             name: "Alfajor de Chocolate",
-            price: 2.100
+            price: 2.200
         },
         {
             id: 10,
@@ -55,12 +55,17 @@ const sweetMenu = {
             id: 11,
             name: "Budines: ",
             description: "(Limon, Naranja, Banana y Arandanos, Amapola)",
-            price: 2.300
+            price: 2.500
         },
         {
             id: 12,
             name: "Pastafrolla",
             description: "Membrillo",
+            price: 2.500
+        },
+        {
+            id: 13,
+            name: "Lemon Pie",
             price: 2.500
         },
     ]

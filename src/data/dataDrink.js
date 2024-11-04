@@ -3,32 +3,32 @@ const drinkData ={
         {
             id: 1,
             name: "Posillo",
-            price: 2.400,
+            price: 2.500,
     },
         {
             id: 2,
             name: "Jarrito",
-            price: 2.500,
+            price: 2.700,
     },
         {
             id: 3,
-            name: "Cafe con Leche",
-            price: 2.800,
+            name: "Cafe Doble",
+            price: 2.900,
     },
         {
             id: 4,
             name: "Té",
-            price: 2.500,
+            price: 2.600,
     },
         {
             id: 5,
             name: "Té con Leche",
-            price: 2.800,
+            price: 2.950,
     },
         {
             id: 6,
             name: "Chocolatada",
-            price: 2.400,
+            price: 2.600,
     },
         {
             id: 7,
@@ -38,7 +38,7 @@ const drinkData ={
         {
             id: 8,
             name: "Capuchino",
-            price: 2.800,
+            price: 2.950,
     }
 ],
 "Licuados y Exprimidos": [
@@ -55,7 +55,7 @@ const drinkData ={
     {
         id: 11,
         name: "Naranja",
-        price: 3.800,
+        price: 3.500,
 },
     {
         id: 12,
@@ -102,27 +102,27 @@ const drinkData ={
     {
         id: 19,
         name: "Agua con y sin Gas - Saborizadas",
-        price: 2.100
+        price: 2.200
     },
     {
         id: 20,
         name: "Gatorade",
-        price: 2.200
+        price: 2.300
     },
     {
         id: 21,
         name: "Pepsi Comun y Black | 7up - 7Up Free | Paso de los toros",
-        price: 2.100
+        price: 2.200
     },
     {
         id: 22,
         name: "Stella Artois 1lt",
-        price: 5.800
+        price: 6.200
     },
     {
         id: 23,
         name: "Andes 1lt",
-        price: 5.800
+        price: 5.600
     }
 ]
 
