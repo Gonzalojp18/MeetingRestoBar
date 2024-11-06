@@ -2,6 +2,13 @@ import React from 'react'
 import CategoryBebidas from './CategoryBebidas';
 import drinkData from '../data/dataDrink';
 import './CategoryBebidas.css'
+import pepsi from '../source/marcas/pepsi.PNG'
+import seven from '../source/marcas/7up.PNG'
+import corona from '../source/marcas/corona.PNG'
+import stella from '../source/marcas/stella.PNG'
+import toro from '../source/marcas/toros.PNG'
+import gatorade from '../source/marcas/gatorade.PNG';
+
 
 const Bebidas = () => {
     const bebidasData = {
@@ -16,6 +23,15 @@ return (
     {Object.entries(bebidasData).map(([category, items]) => (
         <CategoryBebidas key={category} category={category} items={items} />
     ))}
+                        <div className='logo-marcas'>
+                    <img src={pepsi} alt="" />
+                    <img src={seven} alt="" />
+                    <img src={corona} alt="" />
+                    <img src={stella} alt="" />
+                    <img src={toro} alt="" />
+                    <img src={gatorade} alt="" />
+
+                    </div>
     </section>
 )
 }
