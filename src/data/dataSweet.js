@@ -2,8 +2,9 @@ const sweetMenu = {
     "Cositas Ricas": [
         {
             id: 1,
-            name: "Budin de pan",
-            price: 4.500
+            name: "Muffins",
+            description: "consultar opcion del",
+            price: 4.000
         },
         {
             id: 2,
@@ -54,7 +55,7 @@ const sweetMenu = {
         {
             id: 11,
             name: "Budines: ",
-            description: "(Limon, Naranja, Banana y Arandanos, Amapola)",
+            description: "(Limon, Naranja, Banana y Nuez, Vainilla y Amapola)",
             price: 2.500
         },
         {
