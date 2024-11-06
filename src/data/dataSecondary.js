@@ -25,7 +25,7 @@ const enterMenu = {
         {
             id: 5,
             name: "Huevos y Tostadas",
-            description: "Huevos revueltos mas tostadas de pan de campo, acompañado de exprimido de naranja mas infusión o cafe",
+            description: "Huevos revueltos mas tostadas de pan de campo, acompañado de exprimido de naranja mas infusión",
             price: 8.200
         },
         {
