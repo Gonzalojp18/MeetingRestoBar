@@ -38,42 +38,90 @@ const sweetMenu = {
         },
         {
             id: 8,
-            name: "Alfajor de Maicena",
-            price: 2.200
+            name: "Budines: ",
+            description: "(Limon, Naranja, Banana y Nuez, Vainilla y Amapola)",
+            price: 2.800
         },
         {
             id: 9,
-            name: "Alfajor de Chocolate",
-            price: 2.200
-        },
-        {
-            id: 10,
-            name: "Alfajor - SIN TACC",
-            description: "consultar sabores",
-            price: 2.100
-        },
-        {
-            id: 11,
-            name: "Budines: ",
-            description: "(Limon, Naranja, Banana y Nuez, Vainilla y Amapola)",
-            price: 2.500
-        },
-        {
-            id: 12,
             name: "Pastafrolla",
             description: "Membrillo",
             price: 2.500
         },
         {
-            id: 13,
+            id: 10,
             name: "Lemon Pie",
             price: 2.500
         },
         {
-            id: 14,
+            id: 11,
             name: "Helado",
             description: "cosultar",
             price: 2.800
+        },
+        {
+            id: 12,
+            name: "Barra de Cereal",
+            price: 2.000
+        },
+        {
+            id: 13,
+            name: "Cookie - Consultar Sabores disponibles",
+            price: 2.600
+        },
+        {
+            id: 14,
+            name: "Apple Crumble",
+            price: 2.800
+        },
+        {
+            id: 15,
+            name: "Chipa",
+            price: 2.000
+        }
+    ],
+    "Alfajores": [
+        {
+            id: 16,
+            name: "Carbon Activado",
+            price: 2.600
+        },
+        {
+            id: 17,
+            name: "Red de Nutella",
+            price: 2.600
+        },
+        {
+            id: 18,
+            name: "Chocolate Negro",
+            price: 2.500
+        },
+        {
+            id: 19,
+            name: "Chocolate Blanco",
+            price: 2.500
+        },
+        {
+            id: 20,
+            name: "Maicena",
+            price: 2.500
+        },
+        {
+            id: 21,
+            name: "Coco",
+            price: 2.600
+        },
+        {
+            id: 22,
+            name: "Cookie",
+            description: "Relleno con Dulce de leche",
+            price: 2.600
+        },
+        {
+            id: 21,
+            name: "SIN TACC",
+            description: "Consultar sabores disponibles",
+            price: 2.300
         },
     ]
 }

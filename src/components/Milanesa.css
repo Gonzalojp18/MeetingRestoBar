@@ -1,14 +1,10 @@
-#hamburguesas{
-    background-color: rgb(245, 236, 211);
+#milanesa{
+    background-color: #f3f3f3;
     border-radius: 15px;
     font-weight: 600;
-    img{
-        width: 60%;
-    }
 }
 
-
-.box-burger{
+.box-milanesa{
     h1{
         font-weight: 800;
         font-size: 2rem;
@@ -16,6 +12,4 @@
         padding: 1rem 0;
         border-bottom: 4px solid #d97706;
     }
-
-
 }

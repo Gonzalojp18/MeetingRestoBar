@@ -1,0 +1,17 @@
+#sandwiches{
+    background-color: #e8f7d8;
+    border-radius: 15px;
+    font-weight: 600;
+
+}
+
+.box-sandwiches{
+    h1{
+        font-weight: 800;
+        font-size: 2rem;
+        color: #557237;
+        padding: 1rem 0;
+        border-bottom: 4px solid #557237;
+    }
+
+}

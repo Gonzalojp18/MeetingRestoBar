@@ -12,7 +12,6 @@ const menuData = {
         {
             id: 2,
             name: "Tortilla de Papa",
-            description: "Opcion: Cocida o Babe",
             price: 7.200
         },
         {
@@ -24,7 +23,13 @@ const menuData = {
         {
             id: 4,
             name: "Papas Fritas",
-            description: "Opcion: Sola o A caballo",
+            description: "Solas",
+            price: 5.900
+        },
+        {
+            id: 4,
+            name: "Papas Fritas",
+            description: "A caballo",
             price: 6.300
         },
         {
@@ -97,7 +102,7 @@ const menuData = {
         {
             id: 16,
             name: "Francés",
-            description: "Sandwich untado de mayoliva, jamon cocido, queso tybo, lechuga y tomates cherry confitados",
+            description: "Mayoliva, jamon cocido, queso tybo, lechuga y tomates cherry confitados",
             price: 7.700
         },
         {
@@ -105,42 +110,6 @@ const menuData = {
             name: "Florida",
             description: "Pollo grille, provoleta a la plancha, morron confitado, rodajas de remolacha y pesto de cilantro",
             price: 7.800
-        },
-        {
-            id: 18,
-            name: "Sandwich de milanesa(Carne o pollo)",
-            description: "Simple",
-            price: 6.100
-        },
-        {
-            id: 18,
-            name: "Sandwich de milanesa(Carne o pollo) Mediano",
-            description: "jamon y queso",
-            price: 7.400
-        },
-        {
-            id: 19,
-            name: "Sandwich de milanesa(Carne o pollo) Completo",
-            description: "Jamon, queso huevo y tomate",
-            price: 8.200
-        },
-        {
-            id: 21,
-            name: "Sandwich de Pan Arabe",
-            description: "Simple",
-            price: 4.500
-        },
-        {
-            id: 22,
-            name: "Pan Arabe Mediano",
-            description: "jamon, queso, tomate",
-            price: 4.700
-        },
-        {
-            id: 23,
-            name: "Pan Arabe Completo",
-            description: "Jamon, queso huevo y tomate",
-            price: 4.800
         }
     ],
     "Tartas": [
@@ -205,6 +174,43 @@ const menuData = {
             name: "Gourmet",
             description: "Lechuga, pollo crocante, tomates secos y palta. Acompañado con salsa de yogurt.",
             price: 8.700
+        }
+    ],
+    "Sandwiches de Milanesa":[
+        {
+            id: 34,
+            description: "Simple",
+            price: 6.100
+        },
+        {
+            id: 35,
+            name: "Mediano",
+            description: "jamon y queso",
+            price: 7.400
+        },
+        {
+            id: 36,
+            name: "Completo",
+            description: "Jamon, queso huevo, huevo y lechuga",
+            price: 8.200
+        },
+        {
+            id: 37,
+            name: "Sandwich de Pan Arabe",
+            description: "Simple",
+            price: 4.500
+        },
+        {
+            id: 38,
+            name: "Pan Arabe Mediano",
+            description: "jamon, queso, tomate",
+            price: 4.700
+        },
+        {
+            id: 39,
+            name: "Pan Arabe Completo",
+            description: "Jamon, queso huevo y tomate",
+            price: 4.800
         }
     ]
 };

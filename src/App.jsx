@@ -14,6 +14,10 @@ import Coffe from './components/Coffe';
 import Licuados from './components/Licuados';
 import Detox from './components/Detox';
 import Bebidas from './components/Bebidas';
+import Sandwiches from './components/Sandwiches';
+import Milanesas from './components/Milanesas';
+import Wraps from './components/Wraps';
+import Alfajores from './components/Alfajores';
 import logo from '../src/source/miselaneous/logosinbg.webp';
 import {FiInstagram} from 'react-icons/fi'
 
@@ -72,7 +76,16 @@ const App = () => {
           <Hamburguesas />
         </div>
         <div className="mb-12">
+          <Sandwiches />
+        </div>
+        <div className="mb-12">
+          <Milanesas />
+        </div>
+        <div className="mb-12">
           <Tartas />
+        </div>
+        <div className="mb-12">
+          <Wraps />
         </div>
         </section>
         <div className="mb-12">
@@ -86,6 +99,9 @@ const App = () => {
           </section>
         <section>
             <Postres />
+          </section>
+        <section>
+            <Alfajores />
           </section>
         <section>
             <Coffe />
