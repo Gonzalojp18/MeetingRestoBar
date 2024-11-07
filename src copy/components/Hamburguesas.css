@@ -1,0 +1,18 @@
+#hamburguesas{
+    background-color: rgb(245, 236, 211);
+    border-radius: 15px;
+    font-weight: 600;
+}
+
+
+.box-burger{
+    h1{
+        font-weight: 800;
+        font-size: 2rem;
+        color: #d97706;
+        padding: 1rem 0;
+        border-bottom: 4px solid #d97706;
+    }
+
+
+}

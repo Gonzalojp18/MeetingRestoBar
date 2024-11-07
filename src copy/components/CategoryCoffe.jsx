@@ -10,7 +10,7 @@ const CategoryCoffe = ({ category, items }) => {
                     <div key={item.id} className="p-4 flex box-coffe box-items">
                         <h3 className="text-xl font-bold mb-2 entrada">{item.name}</h3>
                         <p className="text-amber-600 font-semibold  mb-2">{item.description}</p>
-                        <p className="text-amber-600 font-extrabold">${item.price.toFixed(3)}</p>
+                        <p className="text-amber-800 font-extrabold">${item.price.toFixed(3)}</p>
                     </div>
                 ))}
             </div>

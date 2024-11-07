@@ -1,0 +1,19 @@
+#entradas{
+    color: #5a1f0f;
+    background-color: #f3f3f3;
+    border-radius: 15px;
+}
+
+.header-entradas{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+
+    h1{
+        font-weight: 800;
+        font-size: 2rem;
+    }
+    img{
+        width: 55%;
+    }
+}
