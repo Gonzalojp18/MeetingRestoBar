@@ -24,7 +24,7 @@ const sweetMenu = {
         {
             id: 5,
             name: "Ensalada de Fruta",
-            price: 2.200
+            price: 2.500
         },
         {
             id: 6,

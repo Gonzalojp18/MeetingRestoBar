@@ -7,6 +7,7 @@ const menuData = {
         {
             id: 1,
             name: "Bastones de Muzarella",
+            description: "Acompañada de consome de Tomáte",
             price: 5.100
         },
         {
@@ -47,7 +48,7 @@ const menuData = {
         },
         {
             id: 7,
-            name: "Milanesa o Suprema napolitana con papas españolas",
+            name: "Milanesa o Suprema a la napolitana con papas españolas",
             price: 8.950
         },
         {
@@ -58,7 +59,7 @@ const menuData = {
         {
             id: 9,
             name: "Escalope de pollo con pure de papas o mix de hojas verdes",
-            price: 9.400
+            price: 9.100
         },
         {
             id: 10,
@@ -68,12 +69,12 @@ const menuData = {
         {
             id: 11,
             name: "Milanesa deluxe",
-            description: "Milanesa de carne con colchon de guacamole y huevo frito acompañada con papas fritas",
+            description: "Milanesa de Carne o de Pollo con colchón de guacamole y huevo frito acompañada con papas fritas",
             price: 9.100
         },
         {
             id: 12,
-            name: "Pizzeta de muzarella de masa madre",
+            name: "Pizzeta de muzarella (masa madre)",
             description: "opcional queso veggie",
             price: 5.900
         }
@@ -133,14 +134,13 @@ const menuData = {
     "Wraps": [
         {
             id: 27,
-            name: "Carne",
-            description: "desmechada, queso y vegetales asados",
+            name: "Carne desmechada, queso y vegetales asados",
             price: 8.100
         },
         {
             id: 28,
-            name: "Calabaza y Muzarella",
-            description: "berenjeas asadas, espinaca, cebolla",
+            name: "Vegano",
+            description: "Berenjenas asadas, espinacas, cebollas, hummus y lentejas.",
             price: 8.100
         }
     ],
@@ -148,7 +148,7 @@ const menuData = {
         {
             id: 29,
             name: "Deluxe",
-            description: "Lechuga, tomates cherrys confitados, palta, aceitunas negras, pollo rebozado con panko, mix de semillas.",
+            description: "Lechuga, tomates cherrys confitados, palta, aceitunas negras, pollo rebozado en panko, mix de semillas.",
             price: 8.600
         },
         {
@@ -160,7 +160,7 @@ const menuData = {
         {
             id: 31,
             name: "De la casa",
-            description: "Lomo de atun, arroz, aceitunas negras, tomate cherry, huevo duro, zanahria y choclo.",
+            description: "Lomo de atun, arroz, aceitunas negras, tomate cherry, huevo duro, zanahoria y choclo.",
             price: 9.200
         },
         {
@@ -180,24 +180,25 @@ const menuData = {
         {
             id: 34,
             description: "Simple",
+            description: "Jamon y queso.",
             price: 6.100
         },
         {
             id: 35,
             name: "Mediano",
-            description: "jamon y queso",
+            description: "Jamon | Queso | Tomate | Lechuga -  Maximo 2 rellenos a elección.",
             price: 7.400
         },
         {
             id: 36,
             name: "Completo",
-            description: "Jamon, queso huevo, huevo y lechuga",
+            description: "Jamon, queso, huevo, tomate y lechuga",
             price: 8.200
         },
         {
             id: 37,
             name: "Sandwich de Pan Arabe",
-            description: "Simple",
+            description: "Jamon y queso",
             price: 4.500
         },
         {

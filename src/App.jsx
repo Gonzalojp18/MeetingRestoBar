@@ -42,12 +42,16 @@ const App = () => {
           <li className="py-2"><a href="#desayunos" onClick={() => setIsMenuOpen(false)}>Desayunos</a></li>
           <li className="py-2"><a href="#entradas" onClick={() => setIsMenuOpen(false)}>Entradas & Picadas</a></li>
           <li className="py-2"><a href="#almuerzos" onClick={() => setIsMenuOpen(false)}>Nuestros Plantos</a></li>
-          <li className="py-2"><a href="#hamburguesas" onClick={() => setIsMenuOpen(false)}>Hamburguesas & Sandwiches</a></li>
-          <li className="py-2"><a href="#tartas" onClick={() => setIsMenuOpen(false)}>Tartas & Wraps</a></li>
+          <li className="py-2"><a href="#hamburguesas" onClick={() => setIsMenuOpen(false)}>Hamburguesas</a></li>
+          <li className="py-2"><a href="#sandwiches" onClick={() => setIsMenuOpen(false)}>Nuestros Sandwiches</a></li>
+          <li className="py-2"><a href="#milanesa" onClick={() => setIsMenuOpen(false)}>Sandwiches</a></li>
+          <li className="py-2"><a href="#tartas" onClick={() => setIsMenuOpen(false)}>Tartas</a></li>
+          <li className="py-2"><a href="#wraps" onClick={() => setIsMenuOpen(false)}>Wraps</a></li>
           <li className="py-2"><a href="#ensaladas" onClick={() => setIsMenuOpen(false)}>Ensaladas</a></li>
           <li className="py-2"><a href="#toast" onClick={() => setIsMenuOpen(false)}>Big Toast</a></li>
           <li className="py-2"><a href="#brusquetas" onClick={() => setIsMenuOpen(false)}>Brusquetas</a></li>
           <li className="py-2"><a href="#tortas" onClick={() => setIsMenuOpen(false)}>Cositas Ricas</a></li>
+          <li className="py-2"><a href="#alfajor" onClick={() => setIsMenuOpen(false)}>Alfajores</a></li>
           <li className="py-2"><a href="#cafe" onClick={() => setIsMenuOpen(false)}>Cafeteria</a></li>
           <li className="py-2"><a href="#licuados" onClick={() => setIsMenuOpen(false)}>Licuados&Exprimidos</a></li>
           <li className="py-2"><a href="#detox" onClick={() => setIsMenuOpen(false)}>Detox</a></li>

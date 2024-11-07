@@ -63,14 +63,12 @@ const enterMenu = {
     "Brusquetas": [
         {
             id: 11,
-            name: "Toston",
-            description: "Con queso blanco, jamon crudo, rúcula y tomates cherry confitados",
+            description: "Con queso blanco, jamón crudo, rúcula y tomates cherry confitados",
             price: 4.200
         },
         {
             id: 12,
-            name: "Toston",
-            description: "con deliciosa palta y huevos revueltos",
+            description: "Con deliciosa palta y huevos revueltos",
             price: 3.850
         }
     ]
