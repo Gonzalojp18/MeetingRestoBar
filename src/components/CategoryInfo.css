@@ -6,8 +6,9 @@
 }
 
 #toast{
-    background-color: rgba(243, 244, 246);
+    background-color: #e3e9de;
     border-radius: 15px;
+    overflow: hidden;
 }
 
 .toast-section{

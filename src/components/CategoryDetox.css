@@ -3,10 +3,13 @@
         color: rgb(125, 146, 102);
         img{
             min-width: 100%;
+            border-radius: 15px 15px 0 0 ;
         }
     }
 
     #detox{
+        border-radius: 15px;
         background-color: #e9f1eb;
         margin: auto;
     }
+

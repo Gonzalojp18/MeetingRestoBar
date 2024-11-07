@@ -3,8 +3,8 @@ const sweetMenu = {
         {
             id: 1,
             name: "Muffins",
-            description: "consultar opcion del",
-            price: 4.000
+            description: "Consultar sabores disponibles",
+            price: 2.400
         },
         {
             id: 2,

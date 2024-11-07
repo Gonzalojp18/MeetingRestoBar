@@ -2,12 +2,12 @@ import React from 'react'
 import CategoryBebidas from './CategoryBebidas';
 import drinkData from '../data/dataDrink';
 import './CategoryBebidas.css'
-import pepsi from '../source/marcas/pepsi.PNG'
-import seven from '../source/marcas/7up.PNG'
-import corona from '../source/marcas/corona.PNG'
-import stella from '../source/marcas/stella.PNG'
-import toro from '../source/marcas/toros.PNG'
-import gatorade from '../source/marcas/gatorade.PNG';
+import pepsi from '../source/marcas/pepsi.webp'
+import seven from '../source/marcas/7up-removebg-preview.png'
+import corona from '../source/marcas/corona.webp'
+import stella from '../source/marcas/stella.webp'
+import toro from '../source/marcas/toros.webp'
+import gatorade from '../source/marcas/gatorade.webp';
 
 
 const Bebidas = () => {

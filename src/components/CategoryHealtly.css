@@ -1,9 +1,9 @@
 
 
 .section-salad{
-    background-color: rgb(209, 182, 108);
-    border-radius: 15px;
-    margin: 1rem auto;
+    background-color: rgb(240, 235, 223);
+    border-radius: 0 0 15px 15px;
+    margin: .5rem auto;
 }
 
 .box-items{
@@ -13,16 +13,22 @@
 }
 
 .title-salad{
+    max-height: 35vh;
+    background-color: red;
+    background-color: rgb(240, 235, 223);
+    border-radius: 15px 15px 0 0;
     overflow: hidden;
     display: flex;
     width: 100%;
     border-bottom: 6px solid #a57d10;
     h2{
-        font-weight: 700;
-        color:#a57d10;
-        margin: 30% 15% 0 0;
+        font-weight: 800;
+        color:#a54710;
+        margin: 10% 16% 0 0;
         width: 100%;
+        text-align: left;
         font-size: 2.5rem;
+        padding: 2%;
     }
     img{
         position: relative;

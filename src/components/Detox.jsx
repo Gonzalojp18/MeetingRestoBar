@@ -10,7 +10,7 @@ const Detox = () => {
     };
 
 return (
-    <section id="detox" className='pb-10'>
+    <section id="detox" className='pb-10 detox'>
             <div className='detox-section'>
             <img className='my-10' src={green} alt="green" />
                 <div className='title-toast py-5'>

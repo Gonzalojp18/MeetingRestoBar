@@ -30,14 +30,13 @@ const enterMenu = {
         },
         {
             id: 6,
-            name: "Copa de Yogurt",
-            description: "Yogurt natural, trozos de durazno y granola",
+            name: "COPAS DE YOGURT:",
+            description: "Cremoso yogurt natural, trozos de durazno y granola",
             price: 4.500
         },
         {
             id: 7,
-            name: "Copa de Yogurt",
-            description: "Yogurt natural, avena y frutos rojos",
+            description: "Cremoso yogurt natural, avena y frutos rojos",
             price: 4.500
         }
     ],

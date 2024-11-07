@@ -6,8 +6,8 @@ import wrap  from '../source/burgerandwraps/wrap.webp'
 
 const Tartas = () => {
   const tartasData = {
-    "Tartas (acompañadas con mix de hojas verdes)": menuData["Tartas"],
-    "Wraps (acompañadas con papas rusticas)": menuData["Wraps"]
+    "TARTAS - (acompañadas con mix de hojas verdes)": menuData["Tartas"],
+    "WRAPS - (acompañadas con papas rusticas)": menuData["Wraps"]
   };
 
   return (

@@ -6,14 +6,14 @@ import './Hamburguesas.css'
 
 const Hamburguesas = () => {
   const hamburguesas = {
-    "Acompañadas con papas": menuData["Hamburguesas"],
-    "Sandwiches (pan de ciabatta)" : menuData["Nuestros Sandwiches"],
+    "Caseras acompañadas con papas rusticas": menuData["Hamburguesas"],
+    "SANDWICHES - PAN DE CIABATTA" : menuData["Nuestros Sandwiches"],
   };
 
   return (
     <section id="hamburguesas">
       <div className="box-burger p-2">
-      <h1 className="font-bold">Hamburguesas & <br /> Sandwiches</h1>
+      <h1 className="font-bold">Hamburguesas</h1>
       {/* <img src={burgerone} alt="de la casa" /> */}
       </div>
       {Object.entries(hamburguesas).map(([category, items]) => (
