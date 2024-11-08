@@ -2,7 +2,7 @@ const enterMenu = {
     "Desayunos y Meriendas": [
         {
             id: 1,
-            name: "Cafe mas Tostada",
+            name: "Cafe mas Tostadas",
             description: "Cafe a eleccion mas tostadas con queso untable y mermelada",
             price: 5.900
         },
