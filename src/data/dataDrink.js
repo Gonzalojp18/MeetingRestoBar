@@ -2,7 +2,7 @@ const drinkData ={
     "Cafeteria": [
         {
             id: 1,
-            name: "Posillo",
+            name: "Pocillo",
             price: 2.500,
     },
         {
@@ -117,7 +117,7 @@ const drinkData ={
     {
         id: 22,
         name: "Stella Artois 1lt",
-        price: 6.200
+        price: 6.800
     },
     {
         id: 23,
