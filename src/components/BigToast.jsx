@@ -5,7 +5,7 @@ import bigToast from '../source/bigtoast/btsinbg.webp'
 
 const BigToast = () => {
     const toastData = {
-    "Pan de Campo" : enterMenu["Big Toast"],
+    "En pan de Campo" : enterMenu["Big Toast"],
     };
 
 return (

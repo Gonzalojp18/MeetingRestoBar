@@ -38,7 +38,7 @@ const sweetMenu = {
         },
         {
             id: 8,
-            name: "Budines: ",
+            name: "Budines:",
             description: "(Limon, Naranja, Banana y Nuez, Vainilla y Amapola)",
             price: 2.800
         },
@@ -122,6 +122,12 @@ const sweetMenu = {
             name: "SIN TACC",
             description: "Consultar sabores disponibles",
             price: 2.300
+        },
+        {
+            id: 22,
+            name: "Vigilante",
+            description: "Queso y Dulce ( Batata o Membrillo",
+            price: 3.350
         },
     ]
 }

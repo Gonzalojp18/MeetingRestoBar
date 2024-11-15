@@ -74,8 +74,8 @@ const menuData = {
         },
         {
             id: 12,
-            name: "Pizzeta de muzarella (masa madre)",
-            description: "opcional queso veggie",
+            name: "Pizzeta de muzarella",
+            description: "( de masa madre) - opcional queso veggie",
             price: 5.900
         }
     ],
@@ -179,7 +179,7 @@ const menuData = {
     "Sandwiches de Milanesa":[
         {
             id: 34,
-            description: "Simple",
+            name: "Simple",
             description: "Jamon y queso.",
             price: 6.100
         },

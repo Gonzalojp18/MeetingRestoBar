@@ -6,14 +6,14 @@ import burgerone from '../source/burgerandwraps/para.webp'
 
 const Hamburguesas = () => {
   const hamburguesas = {
-    "Caseras acompañadas con papas rusticas": menuData["Hamburguesas"]
+    "Acompañadas con papas rusticas": menuData["Hamburguesas"]
     // "SANDWICHES - PAN DE CIABATTA" : menuData["Nuestros Sandwiches"],
   };
 
   return (
     <section id="hamburguesas">
       <div className="box-burger p-2">
-      <h1 className="font-bold">Hamburguesas</h1>
+      <h1 className="font-bold">Hamburguesas Caseras</h1>
       </div>
       {Object.entries(hamburguesas).map(([category, items]) => (
         <CategorySection key={category} category={category} items={items} />
