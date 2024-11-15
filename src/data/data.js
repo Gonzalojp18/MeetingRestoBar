@@ -180,7 +180,6 @@ const menuData = {
         {
             id: 34,
             name: "Simple",
-            description: "Jamon y queso.",
             price: 6.100
         },
         {
