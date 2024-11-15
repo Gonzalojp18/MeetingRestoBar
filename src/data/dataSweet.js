@@ -4,6 +4,7 @@ const sweetMenu = {
             id: 1,
             name: "Muffins",
             description: "Vainilla y Chips de Chocolate: $2.400 \n Chocolate Chips de chocolates$2.500 \nManzana$2.700\nArandanos$2.600",
+            price: 0
         },
         {
             id: 2,
