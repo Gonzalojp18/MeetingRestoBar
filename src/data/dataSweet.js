@@ -78,7 +78,13 @@ const sweetMenu = {
             id: 15,
             name: "Chipa",
             price: 2.000
-        }
+        },
+        {
+            id: 22,
+            name: "Vigilante",
+            description: "Queso y Dulce ( Batata o Membrillo",
+            price: 3.350
+        },
     ],
     "Alfajores": [
         {
@@ -122,13 +128,7 @@ const sweetMenu = {
             name: "SIN TACC",
             description: "Consultar sabores disponibles",
             price: 2.300
-        },
-        {
-            id: 22,
-            name: "Vigilante",
-            description: "Queso y Dulce ( Batata o Membrillo",
-            price: 3.350
-        },
+        }
     ]
 }
 
