@@ -3,8 +3,7 @@ const sweetMenu = {
         {
             id: 1,
             name: "Muffins",
-            description: "Consultar sabores disponibles",
-            price: 2.400
+            description: "Vainilla y Chips de Chocolate: $2.400 \n Chocolate Chips de chocolates$2.500 \nManzana$2.700\nArandanos$2.600",
         },
         {
             id: 2,
@@ -39,7 +38,7 @@ const sweetMenu = {
         {
             id: 8,
             name: "Budines:",
-            description: "(Limon, Naranja, Banana y Nuez, Vainilla y Amapola)",
+            description: "(Limon, Naranja, Banana y Nuez, Vainilla y arandanos)",
             price: 2.800
         },
         {
@@ -90,11 +89,13 @@ const sweetMenu = {
         {
             id: 16,
             name: "Carbon Activado",
+            description: "Relleno de Ganash de Chocolate blanco",
             price: 2.600
         },
         {
             id: 17,
-            name: "Red de Nutella",
+            name: "Red",
+            description: "Relleno de Nutella",
             price: 2.600
         },
         {
