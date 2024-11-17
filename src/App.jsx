@@ -18,6 +18,7 @@ import Sandwiches from './components/Sandwiches';
 import Milanesas from './components/Milanesas';
 import Wraps from './components/Wraps';
 import Alfajores from './components/Alfajores';
+import Muffins from './components/Muffins';
 import logo from '../src/source/miselaneous/logosinbg.webp';
 import {FiInstagram} from 'react-icons/fi'
 
@@ -106,6 +107,9 @@ const App = () => {
           </section>
         <section>
             <Alfajores />
+          </section>
+        <section>
+            <Muffins />
           </section>
         <section>
             <Coffe />

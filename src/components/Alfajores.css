@@ -1,18 +1,18 @@
 
 .alfajor-section{
-    margin: 1.5rem 0;
+    margin: 1rem 0;
     h2{
         color: #9f4c35;
         font-weight: 800;
     }
     img{
         min-width: 100%;
-        border-radius: 15px 15px 0 0 ;
+        border-radius: 15px 15px 0 0;
     }
 }
 
 #alfajor{
-    border-radius: 15px;
+    border-radius: 15px 15px 0 0;
     background-color: #eef5e9;
     margin: auto;
     img{
@@ -29,3 +29,25 @@
     margin: 0 auto;
 }
 
+
+/* muffins styles */
+
+
+.muffins-section{
+    img{
+        min-width: 100%;
+        border-radius: 0;
+    }
+}
+
+#muffins{
+    border-radius: 0 0 15px 15px;
+    background-color: #eef5e9;
+    h2{
+        color: #d4a420;
+        font-weight: 800;
+    }
+    p{
+        color: #c3961b;
+    }
+}

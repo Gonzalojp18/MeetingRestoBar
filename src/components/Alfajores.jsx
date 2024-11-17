@@ -10,7 +10,7 @@ const Alfajores = () => {
     };
 
 return (
-    <section id="alfajor" className='pb-10 detox'>
+    <section id="alfajor" className='pb-8 detox'>
             <div className='alfajor-section'>
                 <div className='title-alfajor py-5'>
                     <h2 className='text-5xl'>Alfajores</h2>

@@ -2,9 +2,9 @@ const sweetMenu = {
     "Cositas Ricas": [
         {
             id: 1,
-            name: "Muffins",
-            description: "Vainilla y Chips de Chocolate: $2.400 \n Chocolate Chips de chocolates$2.500 \nManzana$2.700\nArandanos$2.600",
-            price: 0
+            name: "Budin de Pan",
+            description: "Con dulce de leche o Crema Blanca",
+            price: 2.500
         },
         {
             id: 2,
@@ -126,10 +126,32 @@ const sweetMenu = {
             price: 2.600
         },
         {
-            id: 21,
+            id: 23,
             name: "SIN TACC",
             description: "Consultar sabores disponibles",
             price: 2.300
+        }
+    ],
+    "Muffins": [
+        {
+            id: 24,
+            name: "Vainilla con Chips de Chocolate",
+            price: 2.400,
+        },
+        {
+            id: 25,
+            name: "Chocolate con Chips de chocolate",
+            price: 2.500,
+        },
+        {
+            id: 26,
+            name: "Manzána",
+            price: 2.700,
+        },
+        {
+            id: 27,
+            name: "Arándanos",
+            price: 2.600
         }
     ]
 }
