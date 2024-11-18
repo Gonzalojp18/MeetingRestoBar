@@ -13,7 +13,7 @@ return (
     <section id="alfajor" className='pb-8 detox'>
             <div className='alfajor-section'>
                 <div className='title-alfajor py-5'>
-                    <h2 className='text-5xl'>Alfajores</h2>
+                    <h2 className='text-5xl mt-8'>Alfajores</h2>
                     <img src={alfajorTwo} alt="" srcset="" />
                 </div>
             </div>
