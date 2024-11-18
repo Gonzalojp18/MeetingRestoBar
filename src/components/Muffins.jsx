@@ -2,7 +2,7 @@ import React from 'react'
 import CategoryDetox from './CategoryDetox';
 import muffins from '../data/dataSweet';
 import './Alfajores.css'
-import fotomuffins from '../source/delicias/muffins/muffinssb.webp'
+import fotomuffins from '../source/delicias/muffins/muffins.webp'
 
 const Muffins = () => {
     const muffinsData = {
@@ -19,7 +19,7 @@ return (
     {Object.entries(muffinsData).map(([category, items]) => (
         <CategoryDetox key={category} category={category} items={items} />
     ))}
-                        <img className="mt-10" src={fotomuffins} alt="" srcset="" />
+                        <img className="mb-10 mt-10" src={fotomuffins} alt="" srcset="" />
     </section>
 )
 }
