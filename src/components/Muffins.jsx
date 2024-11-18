@@ -2,7 +2,7 @@ import React from 'react'
 import CategoryDetox from './CategoryDetox';
 import muffins from '../data/dataSweet';
 import './Alfajores.css'
-import fotomuffins from '../source/delicias/muffins/muffins.webp'
+import fotomuffins from '../source/delicias/muffins/muffinssb.webp'
 
 const Muffins = () => {
     const muffinsData = {
