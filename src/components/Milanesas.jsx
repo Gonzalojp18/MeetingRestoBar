@@ -5,7 +5,7 @@ import './Milanesa.css'
 
 const Milanesas = () => {
   const sandwiches = {
-    "de milanesa Carne o Pollo" : menuData["Sandwiches de Milanesa"],
+    "Carne o Pollo" : menuData["Sandwiches de Milanesa"],
   };
 
   return (
