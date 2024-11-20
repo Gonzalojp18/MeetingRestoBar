@@ -123,6 +123,21 @@ const drinkData = {
             id: 23,
             name: "Andes 1lt",
             price: 5.600
+        },
+        {
+            id: 40,
+            name: "Lata Stella sin Alcohol 473ml",
+            price: 2.300
+        },
+        {
+            id: 41,
+            name: "Lata Stella artois 473ml",
+            price: 2.250
+        },
+        {
+            id: 42,
+            name: "Lata Stella rubia 473ml",
+            price: 2.250
         }
     ]
 };
