@@ -11,7 +11,7 @@ const Milanesas = () => {
   return (
     <section id="milanesa">
       <div className="box-milanesa p-2">
-      <h1 className="font-bold">Sandwiches</h1>
+      <h1 className="font-bold">Sandwiches de Milanesa</h1>
       {/* <img src={burgerone} alt="de la casa" /> */}
       </div>
       {Object.entries(sandwiches).map(([category, items]) => (

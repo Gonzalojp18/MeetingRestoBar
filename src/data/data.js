@@ -7,7 +7,7 @@ const menuData = {
         {
             id: 1,
             name: "Bastones de Muzarella",
-            description: "Acompañada de consome de Tomáte",
+            description: "Acompañada de consomé de Tomáte",
             price: 5.100
         },
         {

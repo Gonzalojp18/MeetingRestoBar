@@ -5,7 +5,7 @@ import brusqueta from '../source/bigtoast/brusqueta.webp'
 
 const Brusquetas = () => {
     const toastData = {
-    "En pan de campo" : enterMenu["Brusquetas"]
+    "En pan de campo" : enterMenu["Bruschettas"]
     };
 
 return (
@@ -13,7 +13,7 @@ return (
             <article className='brusquetas-section'>
             <img className='mx-6' src={brusqueta} alt="" />
                 <article className='title-brusquetas'>
-                    <h2 className='text-5xl mb-4'>Brusquetas</h2>
+                    <h2 className='text-5xl mb-4'>Bruschettas</h2>
                 </article>
             </article>
     {Object.entries(toastData).map(([category, items]) => (

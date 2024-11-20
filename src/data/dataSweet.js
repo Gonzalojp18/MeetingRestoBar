@@ -2,7 +2,7 @@ const sweetMenu = {
     "Cositas Ricas": [
         {
             id: 1,
-            name: "Budin de Pan",
+            name: "Budín de Pan",
             description: "Con dulce de leche o Crema Blanca",
             price: 2.500
         },
@@ -13,7 +13,7 @@ const sweetMenu = {
         },
         {
             id: 3,
-            name: "Chees Cake",
+            name: "Cheesecake",
             price: 2.500
         },
         {
@@ -39,12 +39,12 @@ const sweetMenu = {
         {
             id: 8,
             name: "Budines:",
-            description: "(Limon, Naranja, Banana y Nuez, Vainilla y arandanos)",
+            description: "(Limón, Naranja, Banana y Nuez, Vainilla y arándanos)",
             price: 2.800
         },
         {
             id: 9,
-            name: "Pastafrolla",
+            name: "Pastafrola",
             description: "Membrillo",
             price: 2.500
         },
@@ -56,7 +56,7 @@ const sweetMenu = {
         {
             id: 11,
             name: "Helado",
-            description: "cosultar",
+            description: "Consultar",
             price: 2.800
         },
         {
@@ -82,15 +82,15 @@ const sweetMenu = {
         {
             id: 22,
             name: "Vigilante",
-            description: "Queso y Dulce ( Batata o Membrillo",
+            description: "Queso y Dulce (Batata o Membrillo)",
             price: 3.350
-        },
+        }
     ],
     "Alfajores": [
         {
             id: 16,
-            name: "Carbon Activado",
-            description: "Relleno de Ganash de Chocolate blanco",
+            name: "Carbón Activado",
+            description: "Relleno de Ganache de Chocolate blanco",
             price: 2.600
         },
         {
@@ -136,17 +136,17 @@ const sweetMenu = {
         {
             id: 24,
             name: "Vainilla con Chips de Chocolate",
-            price: 2.400,
+            price: 2.400
         },
         {
             id: 25,
-            name: "Chocolate con Chips de chocolate",
-            price: 2.500,
+            name: "Chocolate con Chips de Chocolate",
+            price: 2.500
         },
         {
             id: 26,
-            name: "Manzána",
-            price: 2.700,
+            name: "Manzana",
+            price: 2.700
         },
         {
             id: 27,
@@ -154,7 +154,7 @@ const sweetMenu = {
             price: 2.600
         }
     ]
-}
-
+};
 
 export default sweetMenu;
+

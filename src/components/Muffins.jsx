@@ -19,7 +19,7 @@ return (
     {Object.entries(muffinsData).map(([category, items]) => (
         <CategoryDetox key={category} category={category} items={items} />
     ))}
-                        <img className="mb-10 mt-10" src={fotomuffins} alt="" srcset="" />
+    <img className="mb-10 mt-10" src={fotomuffins} alt="" srcset="" />
     </section>
 )
 }

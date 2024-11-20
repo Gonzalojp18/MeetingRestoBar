@@ -2,30 +2,30 @@ const enterMenu = {
     "Desayunos y Meriendas": [
         {
             id: 1,
-            name: "Cafe mas Tostadas",
-            description: "Cafe a eleccion mas tostadas con queso untable y mermelada",
+            name: "Café más Tostadas",
+            description: "Café a elección más tostadas con queso untable y mermelada",
             price: 5.900
         },
         {
             id: 2,
-            name: "Exprimido mas Tostado",
-            description: "Tostado de jamon y queso (Pan arabe) y exprimido de naranja",
+            name: "Exprimido más Tostado",
+            description: "Tostado de jamón y queso (pan árabe) y exprimido de naranja",
             price: 8.100
         },
         {
             id: 3,
-            name: "Cafe con leche acompañado con 3 Medialunas",
+            name: "Café con leche acompañado con 3 Medialunas",
             price: 5.500
         },
         {
             id: 4,
-            name: "Omellete acompañado de exprimido de Naranja",
-            price: 7.800,
+            name: "Omelette acompañado de exprimido de Naranja",
+            price: 7.800
         },
         {
             id: 5,
             name: "Huevos y Tostadas",
-            description: "Huevos revueltos mas tostadas de pan de campo, acompañado de exprimido de naranja mas infusión",
+            description: "Huevos revueltos más tostadas de pan de campo, acompañado de exprimido de naranja más infusión",
             price: 8.200
         },
         {
@@ -44,23 +44,23 @@ const enterMenu = {
         {
             id: 8,
             name: "Palta",
-            description: "huevo benedictino, tomate cherry confitado y queso parmesano",
+            description: "Huevo benedictino, tomate cherry confitado y queso parmesano",
             price: 7.700
         },
         {
             id: 9,
             name: "Huevo Revuelto",
-            description: "jamon, tomate, queso blanco y parmesano",
+            description: "Jamón, tomate, queso blanco y parmesano",
             price: 7.500
         },
         {
             id: 10,
             name: "Queso blanco",
-            description: "polvo de olivas negras, rúcula, lomito de atún y queso parmesano",
+            description: "Polvo de olivas negras, rúcula, lomito de atún y queso parmesano",
             price: 8.000
-        },
+        }
     ],
-    "Brusquetas": [
+    "Bruschettas": [
         {
             id: 11,
             description: "Con queso blanco, jamón crudo, rúcula y tomates cherry confitados",
@@ -72,7 +72,6 @@ const enterMenu = {
             price: 3.850
         }
     ]
-}
-
+};
 
 export default enterMenu;
