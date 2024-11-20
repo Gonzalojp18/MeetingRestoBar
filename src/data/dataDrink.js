@@ -127,7 +127,7 @@ const drinkData = {
         {
             id: 40,
             name: "Lata Stella sin Alcohol 473ml",
-            price: 2.300
+            price: 2.550
         },
         {
             id: 41,
