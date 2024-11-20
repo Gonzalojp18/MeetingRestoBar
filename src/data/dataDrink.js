@@ -132,11 +132,11 @@ const drinkData = {
         {
             id: 41,
             name: "Lata Stella artois 473ml",
-            price: 2.250
+            price: 2.550
         },
         {
             id: 42,
-            name: "Lata Stella rubia 473ml",
+            name: "Lata Andes rubia 473ml",
             price: 2.250
         }
     ]
