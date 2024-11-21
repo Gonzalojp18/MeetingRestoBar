@@ -55,8 +55,8 @@ const sweetMenu = {
         },
         {
             id: 11,
-            name: "Helado",
-            description: "Consultar",
+            name: "Helado en bocha - (2 bochas)",
+            description: "Sabores: Frutilla a la crema, dulce de leche, crema americana, chocoláte.",
             price: 2.800
         },
         {
