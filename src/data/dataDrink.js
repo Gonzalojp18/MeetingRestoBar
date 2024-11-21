@@ -39,6 +39,16 @@ const drinkData = {
             id: 8,
             name: "Capuchino",
             price: 2.950
+        },
+        {
+            id: 43,
+            name: "MediaLuna de Manteca",
+            price: 1.300
+        },
+        {
+            id: 44,
+            name: "Medialuna de jamón y queso",
+            price: 1.700
         }
     ],
     "Licuados y Exprimidos": [

@@ -28,8 +28,9 @@ const sweetMenu = {
         },
         {
             id: 6,
-            name: "Medialuna de Manteca",
-            price: 1.300
+            name: "Vigilante",
+            description: "Queso y Dulce (Batata o Membrillo)",
+            price: 3.350,
         },
         {
             id: 7,
@@ -78,12 +79,6 @@ const sweetMenu = {
             id: 15,
             name: "Chipa",
             price: 2.000
-        },
-        {
-            id: 22,
-            name: "Vigilante",
-            description: "Queso y Dulce (Batata o Membrillo)",
-            price: 3.350
         }
     ],
     "Alfajores": [

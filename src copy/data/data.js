@@ -126,13 +126,13 @@ const menuData = {
         },
         {
             id: 21,
-            name: "Sandwich de Pan Arabe",
+            name: "SANDWICH DE PAN ARABE",
             description: "Simple",
             price: 4.500
         },
         {
             id: 22,
-            name: "Pan Arabe Mediano",
+            name: "Pan ARABE Mediano",
             description: "jamon, queso, tomate",
             price: 4.700
         },
