@@ -13,8 +13,7 @@ const Hamburguesas = () => {
   return (
     <section id="hamburguesas">
       <div className="box-burger p-2">
-      <h1 className="font-bold">Hamburguesas Caseras</h1>
-      <p className="pt-5">200gr</p>
+      <h1 className="font-bold">Hamburguesas Caseras 200gr</h1>
       </div>
       {Object.entries(hamburguesas).map(([category, items]) => (
         <CategorySection key={category} category={category} items={items} />
