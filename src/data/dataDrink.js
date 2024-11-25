@@ -147,7 +147,8 @@ const drinkData = {
         {
             id: 42,
             name: "Lata Andes rubia 473ml",
-            price: 2.250
+            price: 2.550
+            
         }
     ]
 };
