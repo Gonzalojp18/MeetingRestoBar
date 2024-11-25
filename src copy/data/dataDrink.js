@@ -2,7 +2,7 @@ const drinkData ={
     "Cafeteria": [
         {
             id: 1,
-            name: "Posillo",
+            name: "Pocillo",
             price: 2.500,
     },
         {
