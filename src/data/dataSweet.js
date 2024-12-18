@@ -4,27 +4,27 @@ const sweetMenu = {
             id: 1,
             name: "Budín de Pan",
             description: "Con dulce de leche o Crema Blanca",
-            price: 2.500
+            price: 2.900
         },
         {
             id: 2,
             name: "Chocotorta",
-            price: 2.500
+            price: 2.800
         },
         {
             id: 3,
             name: "Cheesecake",
-            price: 2.500
+            price: 2.800
         },
         {
             id: 4,
             name: "Cookie Oreo",
-            price: 2.500
+            price: 2.800
         },
         {
             id: 5,
             name: "Ensalada de Fruta",
-            price: 2.500
+            price: 2.700
         },
         {
             id: 6,
@@ -35,13 +35,13 @@ const sweetMenu = {
         {
             id: 7,
             name: "Medialuna rellena con dulce de leche",
-            price: 1.500
+            price: 1.700
         },
         {
             id: 8,
             name: "Budines:",
             description: "(Limón, Naranja, Banana y Nuez, Vainilla y arándanos)",
-            price: 2.800
+            price: 2.900
         },
         {
             id: 9,
@@ -52,7 +52,7 @@ const sweetMenu = {
         {
             id: 10,
             name: "Lemon Pie",
-            price: 2.500
+            price: 2.800
         },
         {
             id: 11,
@@ -86,28 +86,28 @@ const sweetMenu = {
             id: 16,
             name: "Carbón Activado",
             description: "Relleno de Ganache de Chocolate blanco",
-            price: 2.600
+            price: 2.700
         },
         {
             id: 17,
             name: "Red",
             description: "Relleno de Nutella",
-            price: 2.600
+            price: 2.700
         },
         {
             id: 18,
             name: "Chocolate Negro",
-            price: 2.500
+            price: 2.700
         },
         {
             id: 19,
             name: "Chocolate Blanco",
-            price: 2.500
+            price: 2.700
         },
         {
             id: 20,
             name: "Maicena",
-            price: 2.500
+            price: 2.700
         },
         {
             id: 21,
